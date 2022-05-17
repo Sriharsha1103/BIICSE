@@ -34,22 +34,26 @@ public class NetworkUtils {
         }
         return url;
     }
-    public static String getResponseFromHttpUrl(URL url)
-            throws IOException{
+    public static String getResponseFromHttpUrl()
+            throws IOException {
+        URL url = new URL(Uri.parse("https://api.themoviedb.org/3/movie/popular?api_key=d696f7a5f93540b0dac2ed52b5b7ee93").buildUpon().build().toString());
         HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
-        try{
+        try {
             InputStream in = urlConnection.getInputStream();
             Scanner scanner = new Scanner(in);
             scanner.useDelimiter("\\A");
             boolean hasInput = scanner.hasNext();
-            if(hasInput)
+            if (hasInput)
                 return scanner.next();
             else
                 return null;
-        }
-        finally {
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
             urlConnection.disconnect();
         }
-
+        return null;
     }
 }

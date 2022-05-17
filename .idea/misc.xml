@@ -5,6 +5,11 @@
       <map>
         <entry key="..\:/Courses/Mobile Application Development/MyAppCSEB/app/src/main/res/layout/activity_first_screen.xml" value="0.33" />
         <entry key="..\:/Courses/Mobile Application Development/MyAppCSEB/app/src/main/res/layout/activity_second_screen.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_home_screen.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/activity_recycler_view_demo.xml" value="0.18211752786220872" />
+        <entry key="app/src/main/res/layout/activity_second_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_fruit.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_movie.xml" value="0.23170731707317074" />
       </map>
     </option>
   </component>

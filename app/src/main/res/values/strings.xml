@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">MyAppCSEB</string>
+    <string-array name="my_fruits">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Cherry</item>
+        <item>Guava</item>
+        <item>Mango</item>
+        <item>Pine Apple</item>
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Cherry</item>
+        <item>Guava</item>
+        <item>Mango</item>
+        <item>Pine Apple</item>
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Cherry</item>
+        <item>Guava</item>
+        <item>Mango</item>
+        <item>Pine Apple</item>
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Cherry</item>
+        <item>Guava</item>
+        <item>Mango</item>
+        <item>Pine Apple</item>
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Cherry</item>
+        <item>Guava</item>
+        <item>Mango</item>
+        <item>Pine Apple</item>
+    </string-array>
 </resources>

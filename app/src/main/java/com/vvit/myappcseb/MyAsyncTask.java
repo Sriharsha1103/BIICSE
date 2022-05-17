@@ -10,13 +10,13 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.net.URL;
 
-public class MyAsyncTask extends AsyncTask<URL,Void,String> {
+public class MyAsyncTask extends AsyncTask<Void,Void,String> {
 
     @Override
-    protected String doInBackground(URL... urls) {
+    protected String doInBackground(Void... urls) {
         String result="";
         try {
-            result = NetworkUtils.getResponseFromHttpUrl(urls[0]);
+            result = NetworkUtils.getResponseFromHttpUrl();
         } catch (IOException e) {
             e.printStackTrace();
         }
